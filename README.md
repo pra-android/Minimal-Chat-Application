@@ -1,16 +1,45 @@
-# chat_application
+# Minimal Chat Application
 
-A new Flutter project.
+## Descriptions:
+My chat app, built with Flutter and Firebase Firestore, supports user authentication, real-time messaging, and message updates/deletions using GetX for state management.
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
+### Packages Used:
+ 1 get:
+ This dependencies is used to achieve state management in flutter which provides state management features, Route management,dependencies injection,etc.
 
-A few resources to get you started if this is your first Flutter project:
+ 2 firebase_auth:
+ firebase_auth in Flutter provides user authentication features like sign-up, login, logout, password reset, and user management using email/password, Google, or other providers.
+ 
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+ 3 http:
+ It is used to make network requests in API call. It offers HTTP methods like GET, POST ,PUT , DELETE.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### Getting Started:
+git clone https://github.com/pra-android/Chatbot-Application.git
+
+cd Minimal_Chat_Application
+
+flutter pub get
+
+flutter run
+
+
+### Screenshots:
+<div class="plato">
+<img src="https://github.com/user-attachments/assets/c89736e2-2342-4196-a893-ebc28c4cd28f" width="240" height="430">
+<img src="https://github.com/user-attachments/assets/73da569d-7a41-4c32-9332-710706d0f4cf" height="430">
+ <img src="https://github.com/user-attachments/assets/79a02912-7bc7-4545-a7ba-a59a9804a34a" width="240" height="430">
+</div>
+
+
+
+
+
+ 
+
+
+
+
+
+
